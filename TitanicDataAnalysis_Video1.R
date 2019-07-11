@@ -25,6 +25,7 @@
 
 
 # Load raw data
+# We are loading a CSV file into a dataframe
 train <- read.csv("train.csv", header = TRUE)
 test <- read.csv("test.csv", header = TRUE)
 
